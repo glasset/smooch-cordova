@@ -22,6 +22,8 @@
         <header-file src="src/ios/SmoochCordova.h" />
         <source-file src="src/ios/SmoochCordova.m" />
 
+        <framework src="src/ios/smooch/Smooch.framework" custom="true" />
+
         <framework src="CoreGraphics.framework" />
         <framework src="CoreTelephony.framework" />
         <framework src="CoreText.framework" />
